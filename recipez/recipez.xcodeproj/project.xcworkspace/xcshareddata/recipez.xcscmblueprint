@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FCB13E2F4645FD9FA8AAFB98F97E553F31FF0C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2CE66D2ABEE38A46F75983DBA817C79B7185846B" : 0,
+    "5FCB13E2F4645FD9FA8AAFB98F97E553F31FF0C3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "147C7411-CC60-4CAB-8354-0391AA659F00",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2CE66D2ABEE38A46F75983DBA817C79B7185846B" : "..",
+    "5FCB13E2F4645FD9FA8AAFB98F97E553F31FF0C3" : "recipez\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "recipez",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "recipez.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ace0625\/Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CE66D2ABEE38A46F75983DBA817C79B7185846B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ace0625\/Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FCB13E2F4645FD9FA8AAFB98F97E553F31FF0C3"
+    }
+  ]
+}

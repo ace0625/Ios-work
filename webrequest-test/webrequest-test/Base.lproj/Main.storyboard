@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="webrequest_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fkt-6J-rdc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="535"/>
+                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcm-0H-Ig8">
+                                <rect key="frame" x="6" y="570" width="35" height="30"/>
+                                <state key="normal" title="Swift"/>
+                                <connections>
+                                    <action selector="swiftPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ka-Em-UWl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f30-m0-VDP">
+                                <rect key="frame" x="277" y="570" width="48" height="30"/>
+                                <state key="normal" title="Gossip"/>
+                                <connections>
+                                    <action selector="gossipPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NlQ-5I-yOq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5qZ-hZ-c02">
+                                <rect key="frame" x="558" y="570" width="39" height="30"/>
+                                <state key="normal" title="Steak"/>
+                                <connections>
+                                    <action selector="steakPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JiU-ER-icc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5qZ-hZ-c02" secondAttribute="trailing" id="3Mg-xK-Mao"/>
+                            <constraint firstAttribute="trailing" secondItem="Fkt-6J-rdc" secondAttribute="trailing" id="4DA-Yw-WpV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fkt-6J-rdc" secondAttribute="bottom" constant="50" id="D35-v7-AgG"/>
+                            <constraint firstItem="jcm-0H-Ig8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y6p-aT-LGo"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jcm-0H-Ig8" secondAttribute="bottom" id="cdq-GT-qfH"/>
+                            <constraint firstItem="f30-m0-VDP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mW9-91-5nc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="f30-m0-VDP" secondAttribute="bottom" constant="8" id="uYy-Uq-t6h"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5qZ-hZ-c02" secondAttribute="bottom" id="vSj-jR-Sls"/>
+                            <constraint firstItem="Fkt-6J-rdc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xuQ-gM-8gI"/>
+                            <constraint firstItem="Fkt-6J-rdc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zlN-jM-bTp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="container" destination="Fkt-6J-rdc" id="e96-cY-bl5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="365"/>
+        </scene>
+    </scenes>
+</document>

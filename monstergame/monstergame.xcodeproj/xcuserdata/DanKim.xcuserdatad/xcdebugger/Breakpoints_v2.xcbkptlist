@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "monstergame/MonsterImg.swift"
+            timestampString = "478486678.684777"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "monstergame.MonsterImg.init (monstergame.MonsterImg.Type)(image : Swift.Optional&lt;__ObjC.UIImage&gt;) -&gt; monstergame.MonsterImg"
+                  moduleName = "monstergame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/SD/Git/IOS/monstergame/monstergame/MonsterImg.swift"
+                  timestampString = "478567387.984771"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "monstergame.MonsterImg.init (monstergame.MonsterImg.Type)(image : Swift.Optional&lt;__ObjC.UIImage&gt;, highlightedImage : Swift.Optional&lt;__ObjC.UIImage&gt;) -&gt; monstergame.MonsterImg"
+                  moduleName = "monstergame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/SD/Git/IOS/monstergame/monstergame/MonsterImg.swift"
+                  timestampString = "478567387.984996"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

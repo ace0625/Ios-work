@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="scrollview" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="sT0-Wj-lOI">
+                                <rect key="frame" x="180" y="15" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="DYt-P1-3LD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shelf" translatesAutoresizingMaskIntoConstraints="NO" id="v0d-Hg-Uep">
+                                <rect key="frame" x="0.0" y="533" width="600" height="67"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="JAH-mB-pPp"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TNY-uW-OYV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="eMX-Xa-b0Q">
+                                        <rect key="frame" x="180" y="183" width="240" height="430"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="v0d-Hg-Uep" secondAttribute="trailing" id="1Lj-1d-Vxy"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TNY-uW-OYV" secondAttribute="bottom" id="8Ss-VN-C5c"/>
+                            <constraint firstItem="v0d-Hg-Uep" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Aq5-kE-lKQ"/>
+                            <constraint firstItem="sT0-Wj-lOI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IaP-Lg-Svh"/>
+                            <constraint firstAttribute="trailing" secondItem="TNY-uW-OYV" secondAttribute="trailing" id="MHn-B4-Vk1"/>
+                            <constraint firstItem="TNY-uW-OYV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Q6U-dr-DwJ"/>
+                            <constraint firstItem="sT0-Wj-lOI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="15" id="gd6-O4-fnc"/>
+                            <constraint firstItem="TNY-uW-OYV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xw5-Sb-3Dz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v0d-Hg-Uep" secondAttribute="bottom" id="y1R-wi-WyD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scrollview" destination="TNY-uW-OYV" id="Lm3-YA-c7s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="368" height="610"/>
+        <image name="logo" width="732" height="340"/>
+        <image name="shelf" width="865" height="114"/>
+    </resources>
+</document>
